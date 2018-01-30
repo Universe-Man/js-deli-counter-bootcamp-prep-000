@@ -17,5 +17,5 @@ function nowServing(katzDeliLine) {
     } else {for(let i = 1; i <= katzDeliLine.length; i++){
       theNumbers.push(`${i}. ${katzDeliLine[i-1]}`)
     }
-      return(`The line is currently:${theNumbers} `)
+      return(`The line is currently: ${theNumbers}`)
   }}
